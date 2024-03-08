@@ -1,0 +1,133 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: burlywood;
+    color: #333;
+}
+
+header {
+    background-color: burlywood;
+    color: #4B250B; /* Darker brown for contrast */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #4B250B; /* Darker brown for contrast */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4B250B; /* Darker brown for contrast */
+    color: white; /* White text for contrast */
+    margin-bottom: 2px;
+}
+
+.search-bar button {
+    background-color: white;
+    color: #4B250B; /* Darker brown for contrast */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 3px;
+    margin-right: 3px;
+
+
+}
+
+nav {
+    background-color: burlywood;
+    border-top: 3px solid #000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4B250B; /* Darker brown for contrast */
+    font-size: 1.2rem;
+    padding: 15px 20px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #3498db;
+    color: white;
+    font-size: 1; 
+    padding: 7px 12px;
+    padding-top: 2px;
+    transition: all 0.3s ease-in-out;
+    box-sizing: content-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.featured-posts article {
+    background-color: #ecf0f1;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.meta-info {
+    display: flex;
+    justify-content: space-between;
+    color: #4B250B; /* Darker brown for contrast */
+    margin-bottom: 10px;
+}
+
+.author,
+.time {
+    font-size: 0.9rem; /* Adjusted font size for meta information */
+}
+
+/* ... (rest of your CSS remains unchanged) */
+
+
+.cateogories ul li{
+    list-style: none;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
